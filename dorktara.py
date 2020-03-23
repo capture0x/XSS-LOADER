@@ -28,7 +28,7 @@ def dorkFind():
         usrr = get_user_agent()
         header = {"User-Agent": "{}".format(random.choice(usrr))}
         print(colors.w, "e.g---->inurl:\"search.php?q=\"")
-        aranacak = input("taranacak dorku giriniz:")
+        aranacak = input("Please enter your dork:")
         for x in range(0, 20):
             url = ("https://yandex.com.tr/search/?lr=11501&text={}={}".format(aranacak, x))
             istek = requests.get(url, headers=header)
