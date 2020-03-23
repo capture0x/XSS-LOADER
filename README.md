@@ -31,10 +31,10 @@ Instagram: [Hulya Karabag](https://www.instagram.com/tmrswrr/)
 
 ## 📒 Read Me 📒
 
-This tool creates payload for use in xss injection
-Select default payload tags from parameter or  write your payload
-It makes xss inj. with Xss Scanner parameter
-It finds vulnerable sites url with Xss Dork Finder parameter
+* This tool creates payload for use in xss injection
+* Select default payload tags from parameter or  write your payload
+* It makes xss inj. with Xss Scanner parameter
+* It finds vulnerable sites url with Xss Dork Finder parameter
 
 
 ##  :cd: Installation  :cd:
