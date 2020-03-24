@@ -27,13 +27,13 @@ class payloadss:
 
 
 class payloadsList:
-    with open("waf.txt", "r") as f:
+    with open("waf.txt", "r", encoding="utf-8") as f:
         aa = f.read()
-    with open("cloudflare.txt", "r") as f:
+    with open("cloudflare.txt", "r", encoding="utf-8") as f:
         bb = f.read()
-    with open("alertt.txt", "r") as f:
+    with open("alertt.txt", "r", encoding="utf-8") as f:
         cc = f.read()
-    with open("polyglot.txt", "r") as f:
+    with open("polyglot.txt", "r", encoding="utf-8") as f:
         dd = f.read()
 
 
