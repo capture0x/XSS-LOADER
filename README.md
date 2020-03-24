@@ -143,6 +143,18 @@ First enter the dork for searching:
    e.g---->inurl:"search.php?q="
 Results will be saved in "dork.txt" after scanning.
 
+## Known Issues
+
+### Fixed:
+- Unicode errors
+
+- Module errors
+
+**Important:**
+
+If you want to use tool for python3 installed on Windows download below link:
+
+https://github.com/capture0x/XSS-LOADER-for-WINDOWS
 
 
 ## Bugs and enhancements
