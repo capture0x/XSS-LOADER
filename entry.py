@@ -21,7 +21,7 @@ class colors:
 
 
 color_random = [colors.CBLUE, colors.CVIOLET, colors.CWHITE, colors.OKBLUE, colors.CGREEN, colors.WARNING,
-                colors.CRED, colors.UNDERLINE, colors.CBEIGE]
+                colors.CRED, colors.CBEIGE]
 random.shuffle(color_random)
 
 
