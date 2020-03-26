@@ -3,14 +3,15 @@ import sys
 import random
 
 
-class colors:
-    r = '\033[31m'
-    g = '\033[32m'
-    y = '\033[33m'
-    b = '\033[34m'
-    m = '\033[35m'
-    c = '\033[36m'
-    w = '\033[37m'
+class bcolors:
+    CBLACK = '\33[30m'
+    CRED = '\33[31m'
+    CGREEN = '\33[32m'
+    CYELLOW = '\33[33m'
+    CBLUE = '\33[34m'
+    CVIOLET = '\33[35m'
+    CBEIGE = '\33[36m'
+    CWHITE = '\33[37m'
 
 
 def get_user_agent():
@@ -24,9 +25,9 @@ def get_user_agent():
 
 def xssFind():
     try:
-        print(colors.b, "e.g target -----> http://target.com/index.php?name=")
+        print(bcolors.CVIOLET,"e.g target -----> http://target.com/index.php?name=")
         url = input("Please Enter Target Url\t:")
-        print("Default Payload List -----> xss-payloads.txt \t")
+        print(bcolors.CBLUE,"Default Payload List -----> xss-payloads.txt \t")
         y = """
         1)  BASIC PAYLOAD LIST
         2)  DIV PAYLOAD LIST
@@ -58,27 +59,34 @@ def xssFind():
             print("Selected payload:xss-payloads.txt\n")
             choose = "xss-payloads.txt"
         elif choose == '7':
-            print("e.g. path -----> /usr/share/wordlists/wfuzz/Injections/XSS.txt")
+            print(bcolors.CBEIGE,"e.g. path -----> /usr/share/wordlists/wfuzz/Injections/XSS.txt")
             choose = input("Path enter\t:")
         elif choose == '8':
             print("Exiting...")
             sys.exit()
         else:
             print("Wrong Choose..!!!")
+        choose = choose.replace("\\", "/")
         while True:
-            with open(choose, "r") as f:
+            with open(choose, "r", errors="replace") as f:
                 for i in f:
-                    usrr = get_user_agent()
-                    header = {"User-Agent": "{}".format(random.choice(usrr))}
-                    req = requests.get(url + i, headers=header)
-                    if i in req.text:
-                        print(colors.r, "Parameter vulnerable\r\n")
-                        print(colors.r, "Vulneranle Payload Find\t: " + req.url)
-                        with open("vulnpayload.txt", "a+") as ss:
-                            ss.write(i)
+                    try:
+                        usrr = get_user_agent()
+                        header = {"User-Agent": "{}".format(random.choice(usrr))}
+                        req = requests.get(url + i, headers=header)
+                        if i in req.text:
+                            print(bcolors.CRED,"Parameter vulnerable\r\n")
+                            print(bcolors.CRED,"Vulneranle Payload Find\t: " + req.url)
+                            with open("vulnpayload.txt", "a+") as ss:
+                                ss.write(i)
 
-                    else:
-                        print(colors.b, "TRYING\t:", req.url)
+                        else:
+                            print(bcolors.CBLUE,"TRYING\t:", req.url)
+                    except:
+                        pass
+                break
+
+
 
     except Exception as err:
         print(err)
