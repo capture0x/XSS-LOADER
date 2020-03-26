@@ -70,7 +70,7 @@ def xssFind():
                 for i in f:
                     usrr = get_user_agent()
                     header = {"User-Agent": "{}".format(random.choice(usrr))}
-                    req = requests.post(url + i, headers=header)
+                    req = requests.get(url + i, headers=header)
                     if i in req.text:
                         print(colors.r, "Parameter vulnerable\r\n")
                         print(colors.r, "Vulneranle Payload Find\t: " + req.url)
