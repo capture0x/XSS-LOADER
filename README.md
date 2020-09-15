@@ -161,8 +161,6 @@ https://github.com/capture0x/XSS-LOADER-for-WINDOWS
 
 For bug reports or enhancements, please open an [issue](https://github.com/capture0x/XSS-LOADER/issues) here.
 
-## Support and Donations
 
-Contact us with email [capture0x@mail.com.tr](mailto:capture0x@mail.com.tr?Subject=XSS-LOADER)
 
 **Copyright 2020**
