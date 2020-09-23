@@ -8,7 +8,7 @@
 #### Version 1.0.0
 All in one tools for **XSS PAYLOAD GENERATOR -XSS SCANNER-XSS DORK FINDER**
 
-Instagram: [Hulya Karabag](https://www.instagram.com/tmrswrr/)
+Instagram: [TMRSWRR](https://www.instagram.com/tmrswrr/)
 ##  :camera: Screenshots  :camera:
 
 <img src="https://i.imgur.com/mnRkb1b.png" width="32%"></img>
