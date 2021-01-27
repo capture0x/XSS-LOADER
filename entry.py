@@ -51,12 +51,12 @@ def entryy():
         print(colors.CWHITE + c, end='')
         sys.stdout.flush()
         sleep(0.0065)
-    x = "\t||               INSTAGRAM==>TMRSWRR               ||\n\n"
+    x = "\t||                                                 ||\n\n"
     for c in x:
         print(colors.CWHITE + c, end='')
         sys.stdout.flush()
         sleep(0.0065)
-    z = "\t||             CODED BY HULYA  KARABAG             ||\n\n"
+    z = "\t||             CODED BY HULYA  TMRSWRR             ||\n\n"
     for c in z:
         print(colors.CWHITE + c, end='')
         sys.stdout.flush()
