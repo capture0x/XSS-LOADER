@@ -4,7 +4,7 @@
 
 
 
-#### Written by Hulya Karabag 
+#### Written by TMRSWRR 
 #### Version 1.0.0
 All in one tools for **XSS PAYLOAD GENERATOR -XSS SCANNER-XSS DORK FINDER**
 
