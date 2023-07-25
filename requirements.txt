@@ -1,6 +1,6 @@
 beautifulsoup4==4.8.2
 bs4==0.0.1
-certifi==2019.11.28
+certifi==2023.7.22
 chardet==3.0.4
 idna==2.9
 lxml==4.5.0
